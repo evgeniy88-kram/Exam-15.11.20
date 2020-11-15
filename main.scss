@@ -346,20 +346,27 @@ body {
   border-radius: 50%;
   z-index: 2;
   background: #333333;
+  svg {
+    width: 60px;
+    height: 60px;
+  }
 }
 .how__div:hover p {
   color: #3677fd;
 }
 #div-center {
-  margin: 10px 170px 0 170px;
+  margin: 20px 170px 0;
   @media screen and (max-width: 1200px) {
-    margin: 10px 100px 0 100px;
+    margin: 20px 100px 0;
   }
   @media screen and (max-width: 900px) {
-    margin: 10px 50px 0 50px;
+    margin: 20px 50px 0;
   }
   @media screen and (max-width: 600px) {
-    margin: 10px 20px 0 20px;
+    margin: 20px 20px 0;
+  }
+  p {
+    margin-top: 42px;
   }
 }
 .how__div--p {
@@ -373,7 +380,7 @@ body {
     font-size: 24px;
   }
   @media screen and (max-width: 600px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 
 }
