@@ -41,7 +41,7 @@ body {
 @media screen and (max-width: 400px) {
   .header--h1 {
     font-size: 18px;
-    margin-top: 207px;
+    margin-top: 150px;
   }
 }
 
@@ -181,7 +181,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .header__bottom {
-    margin-top: 225px;
+    margin-top: 130px;
   }
 }
 
@@ -299,7 +299,7 @@ body {
 @media screen and (max-width: 500px) {
   .why__left--h1 {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -351,7 +351,7 @@ body {
     width: 200px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
 }
 
@@ -424,7 +424,7 @@ body {
 }
 @media screen and (max-width: 500px) {
   .how {
-    min-height: 200px;
+    min-height: 170px;
   }
 }
 
@@ -537,7 +537,7 @@ body {
   .house__menu {
     top: 10px;
     left: 5px;
-    height: 380px;
+    height: 360px;
     width: 290px;
   }
 }
@@ -550,6 +550,11 @@ body {
   padding-top: 45px;
   line-height: 26px;
   margin: 0;
+}
+@media screen and (max-width: 400px) {
+  .house__menu p:nth-child(1) {
+    padding-top: 20px;
+  }
 }
 .house__menu p:nth-child(2) {
   font-size: 20px;
@@ -647,7 +652,7 @@ body {
   .rock__menu {
     top: 10px;
     left: 5px;
-    height: 380px;
+    height: 360px;
     width: 290px;
   }
 }
@@ -660,6 +665,11 @@ body {
   padding-top: 45px;
   line-height: 26px;
   margin: 0;
+}
+@media screen and (max-width: 400px) {
+  .rock__menu p:nth-child(1) {
+    padding-top: 20px;
+  }
 }
 .rock__menu p:nth-child(2) {
   font-size: 20px;
@@ -742,7 +752,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .test--h1 {
-    margin-top: 10px;
+    margin: 10px 0;
     font-size: 26px;
   }
 }
@@ -763,6 +773,7 @@ body {
   .test__div img {
     width: 200px;
     height: 127px;
+    margin-top: 0;
   }
 }
 
@@ -854,6 +865,11 @@ body {
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 400px) {
+  .footer {
+    min-height: 135px;
+  }
+}
 
 .footer--h1 {
   color: white;
@@ -864,6 +880,11 @@ body {
   text-transform: uppercase;
   margin: 120px 0 0 0;
   line-height: 26px;
+}
+@media screen and (max-width: 400px) {
+  .footer--h1 {
+    margin-top: 20px;
+  }
 }
 
 .footer--p1 {
